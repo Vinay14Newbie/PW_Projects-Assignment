@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/hero-image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.main{
+    max-width: 100%;
+    height: 100%;
+    margin: 15px 80px;
+}
+
+
+
+/* here starts from navigation */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 1.1rem;
+}
+
+header .search{
+    display: flex;
+    align-items: center;
+}
+header .search div{
+    background-color: rgb(226, 46, 76);
+    margin: 10px 20px;
+    padding: 8px 15px;
+    border-radius: 9px;
+    color: white;
+    font-size: 1.1rem;
+}
+header .search img{
+    width: 26px;
+    height: 26px;
+}
+
+
+.car_loan{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+.car_loan div{
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.car_loan div img{
+    margin-right: 15px;
+}
+.car_loan div span{
+    font-size: 1.1rem;
+}
+
+
+.house_loan{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.house_loan div{
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.house_loan div img{
+    margin-right: 15px;
+}
+.house_loan div span{
+    font-size: 1.1rem;
+}
+
+
+
+/* main part begins here */
+main .content h1{
+    font-size: 4.8rem;
+    margin: 20px 0;
+}
+main .content p{
+    font-size: 1.5rem;
+    opacity: 0.8;
+    line-height: 2rem;
+}
+.content div{
+    display: flex;
+}
+.buttons .btn-1{
+    background-color: rgb(226, 46, 76);
+    color: white;
+    border-radius: 5px;
+    margin-right: 7px;
+    border: 2px solid rgb(226, 46, 76);
+}
+.buttons .btn-2{
+    background-color: white;
+    color: rgb(226, 46, 76);
+    border: 2px solid rgb(226, 46, 76);
+    border-radius: 5px;
+    margin-left: 9px;
+}
+.buttons .btn{
+    padding: 10px 19px;
+    margin-top: 25px;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    margin-top: 90px;
+}
+footer .contact{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    opacity: 0.8;
+    margin: 0 15px;
+}
+footer .contact img{
+    margin-right: 9px;
+}
+footer p{
+    font-size: 1.2rem;
+}
+.social_media img:not(.social_media img:nth-child(2)){
+    margin-left: 8px;
+}
+.social_media img:first-child{
+    margin-right: 3px;
+}

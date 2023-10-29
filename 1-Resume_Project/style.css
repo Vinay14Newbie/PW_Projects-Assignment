@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.page{
+    display: flex;
+    max-width: 70vw;
+    min-height: 100vh;
+}
+
+.left{
+    width:35%;
+    min-height:100%;
+}
+.right{
+    background-color: rgba(173, 173, 173, 0.621);
+    width: 65%;
+}
+
+.profile_photo{
+    width: 300px;
+    height: 330px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* left side profile heading */
+.page .head{
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+}
+/* font color to white & family i choosed roboto  */
+.head h1, .head h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* giving margin to id's section for look diffrent section from above */
+.head span{
+    margin: 15px;
+    line-height: 2rem;
+}
+/* here i selected all icons from left side for maintainability */
+.left i{
+    margin-right: 9px;
+}
+/* text properties for ids */
+.head span a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+.head span a:hover{
+    color: #00008b;
+}
+
+/* left side main section */
+/* adjusting padding and bgc */
+.page .left .main{
+    width: 100%;
+    height: 40rem;
+    background-color: rgb(178, 182, 179);
+    padding: 24px 0px;
+}
+/* making all text to the little-right */
+.page .left .main div{
+    margin-left: 30px;
+}
+.skill, .certificates{
+    margin-top: 24px;
+}
+.main .contact p, .main .skill h3{
+    margin-left: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.left .main li, .left .main h2{
+    font-family: 'Inter', sans-serif;
+}
+.main ul{
+    margin-left: 20px;
+}
+
+.contact_detail{
+    font-size:1.1rem;
+    line-height: 2rem;
+}
+
+/* targeting contact, skills, & certificates for giving it right margin */
+.main h2{
+    line-height: 2rem;
+}
+.skill h3{
+    line-height: 2rem;
+}
+.certificates ul li{
+    line-height: 2rem;
+}
+.contact_detail--main{
+    opacity: 0.8;
+}
+
+
+
+/* Let's move to the right side of the template */
+/* giving padding to the right side */
+.right{
+    background-color: rgb(222, 158, 158);
+}
+.page .right{
+    padding: 0 30px;
+}
+/* changing all heading's color and font style & giving padding */
+.right h2{
+    color: blueviolet;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;   
+    padding-top: 25px;
+}
+/* giving right side font family */
+.right p{
+    font-family: 'Inter', sans-serif;
+}
+/* changing the color of braking line */
+.right hr {
+    border: none; /* Remove the default line */
+    height: 2px;  /* Set the height of the line */
+    background-color: rgb(72, 71, 71); /* Change the color to red */
+    padding-top: 4px;
+}
+/* setting up heading inside of work experience */
+.roll_name_1_heading, .roll_name_2_heading{
+    width: 100%;
+}
+.work_exp .roll_name_1_heading, .work_exp .roll_name_2_heading{
+    display: flex;
+    justify-content: space-between;
+}
+/* fixing up with arrow icons giving */
+.roll_name_1, .roll_name_2, .project_name_1, .project_name_2, .education-1, .education-2, .objective p{
+    display: flex;
+    padding-top: 12px;
+}
+.right i{
+    margin-right: 17px;
+}
+
+/* setting up subheadings of right side */
+.roll_name_1_heading, .roll_name_2_heading, .project_subheading-1, .project_subheading-2, .education_subheading-1, .education_subheading-2{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    opacity: 0.9;
+}
