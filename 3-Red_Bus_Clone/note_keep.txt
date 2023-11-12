@@ -1,0 +1,87 @@
+    <!-- header section starts here -->
+    <header>
+        <!-- first heading -->
+        <div class="first_heading">
+            <h1 class="">India's No. 1 Online Bus Ticket Booking Site</h1>
+        </div>
+
+        <!-- search box for buses -->
+       <div class="search_box">
+            <div class="box from">
+                <div class="">
+                    <i class="fa-solid fa-bus"></i>
+                    <span>From</span>
+                </div>
+            </div>
+            <div class="two_sided_arrow">
+                <img class="two_sided_arrow" src="./assets/arrow_two_sided.png" alt="">
+            </div>
+            <div class="box to">
+                <div class="">
+                    <i class="fa-solid fa-bus"></i>
+                    <span>To</span>
+                </div>
+            </div>
+            <div class="date box">
+                <div class="">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <span>Date</span>
+                </div>
+            </div>
+            <button class="search_buses">Search buses</button>
+        </div>
+
+
+        <!-- cards - trending offers -->
+        <div class="trending_offers">
+            <div class="heading">
+                <h1 class="first">TRENDING OFFERS</h1>
+                <div class="second">View All</div>
+            </div>
+            <div class="trending_cards_wrapper">
+                <i class="fa-solid fa-greater-than fa-rotate-180"></i></i>
+                <div class="trending_cards">
+                    <div class="first">
+                        <img class="" src="./assets/first_offers.png" alt="first_offers">
+                        <div class="">
+                            <div class="">BUS</div>
+                            <p class="">Save up to Rs 250 on bus tickets</p>
+                            <p class="">Valid till 30 Nov</p>
+                            <div class="coupon">
+                                <p class="">FIRST</p>
+                                <i class="fa-regular hover:cursor-pointer fa-copy"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second">
+                        <img class="" src="./assets/second_offers.png" alt="first_offers">
+                        <div class="">
+                            <div class="">BUS</div>
+                            <p class="">Get 10% upto off Rs    300 on HDFC Bank</p>
+                            <p class="">Valid till 14 Nov</p>
+                            <div class="coupon">
+                                <p class="">---</p>
+                                <i class="fa-regular hover:cursor-pointer fa-copy"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third">
+                        <img class="" src="./assets/third_offers.png" alt="first_offers">
+                        <div class="">
+                            <div class="">BUS</div>
+                            <p class="">Save up to Rs 300 on AP, TS routes</p>
+                            <p class="">Valid till 30 Nov</p>
+                            <div class="coupon">
+                                <p class="">SUPERHIT</p>
+                                <i class="fa-regular hover:cursor-pointer fa-copy"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <i class="fa-solid fa-greater-than"></i></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section ends here -->
