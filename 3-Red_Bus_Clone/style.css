@@ -266,7 +266,7 @@ main{
     padding: 0 10rem;
 }
 
-/* first section */
+/* first section | get more than red bus */
 .first_section{
     display: flex;
     justify-content: space-between;
@@ -298,6 +298,12 @@ main{
 .first_section .left .first_section_left--content .buttons .first_button--second:hover{
     background-color: rgb(224, 225, 226);
     border-radius: 15px;
+}
+.first_section_left--content .buttons .first_button--second img{
+    filter: grayscale(10);
+}
+.first_section_left--content .buttons .first_button--second img:hover{
+    filter: grayscale(0);
 }
 .first_section .left .first_section_left--content .buttons .first_button div{
     display: flex;
@@ -359,7 +365,7 @@ main{
     right: 80px;
 }
 
-/* second section */
+/* second section | enjoy the app  */
 .second_section{
     margin: 180px 0;
 }
@@ -437,7 +443,7 @@ main{
     margin-bottom: 17px;
 }
 
-/* third section */
+/* third section | primo  */
 .fourth_section{
     font-size: 1.1rem;
 }
@@ -470,7 +476,7 @@ main{
     font-weight: 700;
 }
 
-/* section 4 */
+/* section 4 | partnered with */
 .fourth_section{
     margin-top: 12rem;
 }
@@ -525,7 +531,7 @@ main{
     border-radius: 15px;
 }
 
-/* section 5 */
+/* section 5 | FAQ */
 .fifth_section{
     margin-top: 10rem;
 }
@@ -568,7 +574,7 @@ main{
     align-items: center;
 }
 
-/* sixth section */
+/* sixth section | global presence */
 .sixth_section{
     margin-top: 10rem;
 }
